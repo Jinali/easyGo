@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PageNavigation</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_my_new_screen">MyNewScreen</string>
+    <string name="title_activity_fragment_tab_1">FragmentTab1</string>
+    <string name="title_activity_fragment_tab_2">FragmentTab2</string>
+    <string name="title_activity_fragment_tab1">FragmentTab1</string>
+    <string name="title_activity_user_registration">UserRegistration</string>
+    <string name="title_activity_locservice">LocationServiceActivity</string>
+    <string name="title_activity_alarmReceiver">AlarmReceiver</string>
+	<string name="title_activity_updatelocation">UpdateLocation</string>
+	<string name="title_activity_locdbhelper">LocDatabaseHelper</string>
+	<string name="title_activity_loccontent">LocContentProvider</string>
+	<string name="title_activity_loctable">LocTable</string>
+</resources>

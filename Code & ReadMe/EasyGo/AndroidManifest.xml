@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pagenavigation"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+              
+        <activity
+            android:name="com.example.pagenavigation.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.pagenavigation.MyNewScreen"
+            android:label="@string/title_activity_my_new_screen" >
+        </activity>
+          <activity
+            android:name="com.example.pagenavigation.LocationServiceActivity"
+            android:label="@string/title_activity_locservice">
+        </activity>
+        <activity
+            android:name="com.example.pagenavigation.UpdateLocation"
+            android:label="@string/title_activity_updatelocation">
+        </activity>
+        <activity
+            android:name="com.example.pagenavigation.AlarmReeceiver"
+            android:label="@string/title_activity_alarmReceiver">
+        </activity>
+        <activity
+            android:name="com.example.pagenavigation.FragmentTab1"
+            android:label="@string/title_activity_fragment_tab1" >
+        </activity>
+        <activity
+            android:name="com.example.pagenavigation.UserRegistration"
+            android:label="@string/title_activity_user_registration" >
+            
+        </activity>
+               
+             
+     </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+</manifest>
